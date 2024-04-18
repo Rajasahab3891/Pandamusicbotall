@@ -14,10 +14,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Groovy_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@Shee_Pro_Bot")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Groovymusic")
+BOT_NAME = getenv("BOT_NAME" , "Shee")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -28,7 +28,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1642149912))
+OWNER_ID = int(getenv("OWNER_ID", 5948367761))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -38,15 +38,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Skyxlor/GROOVYxMUSIC",
+    "https://github.com/golujha9936/REDZONExMUSlC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/D3_NETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/groovy_supportt")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Redzone_Networks")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Redzone_Chats")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -84,7 +84,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/ab291672a69c38a123a74.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/6daadb029662c31c4d6da.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/6a0953d3f04eba37c9b25.jpg"
