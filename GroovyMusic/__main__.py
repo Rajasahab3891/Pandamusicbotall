@@ -50,12 +50,12 @@ async def init():
         pass
     await Anony.decorators()
     LOGGER("GroovyMusic").info(
-        "DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @Baap_ji_9211 , @groovy_supportt FOR ANY ISSUES"
+        "DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @FAKE_ARYAN , @Redzone_Chats FOR ANY ISSUES"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("GroovyMusic").info("Stopping GroovyMusic Music Bot...")
+    LOGGER("GroovyMusic").info("Stopping REDZONExMUSlC Music Bot...")
 
 
 if __name__ == "__main__":
