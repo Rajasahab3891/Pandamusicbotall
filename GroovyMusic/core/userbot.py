@@ -52,7 +52,6 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("Redzone_Chats")
-                await self.one.join_chat("Redzone_Networks")
             except:
                 pass
             assistants.append(1)
@@ -73,7 +72,6 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.one.join_chat("Redzone_Chats")
-                await self.one.join_chat("Redzone_Networks")
             except:
                 pass
             assistants.append(2)
@@ -94,7 +92,6 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.one.join_chat("Redzone_Chats")
-                await self.one.join_chat("Redzone_Networks")
             except:
                 pass
             assistants.append(3)
@@ -115,7 +112,6 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.one.join_chat("Redzone_Chats")
-                await self.one.join_chat("Redzone_Networks"))
             except:
                 pass
             assistants.append(4)
@@ -136,7 +132,6 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.one.join_chat("Redzone_Chats")
-                await self.one.join_chat("Redzone_Networks")
             except:
                 pass
             assistants.append(5)
