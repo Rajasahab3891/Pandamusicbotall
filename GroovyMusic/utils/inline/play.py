@@ -65,7 +65,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="🥀 ꜱᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/Redzone_Chats",
+                text="🥀 ꜱᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/PandaLovebaby",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
