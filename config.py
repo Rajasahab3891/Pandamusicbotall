@@ -14,10 +14,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "@Shee_Pro_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@Spotifyxmuzicbot")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Shee")
+BOT_NAME = getenv("BOT_NAME" , "spotify")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -89,16 +89,16 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/cedc09506159784b7f7ce.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/fed5823f6d0b08237ae20.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/10e2c7ff759e2ddde7df3.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/9414504f3cd516570e56d.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/9414504f3cd516570e56d.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/b88ef98e215c76427579c.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ce5ffb3d5f383c781f234.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/235b5dca9b52b8f2e7166.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/99fd77e30ac338bcc21ad.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/b28c63ba79db0d999e79c.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/b28c63ba79db0d999e79c.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/ed06866118c22e07d30cb.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/63898ae9b3ce85f01d6d8.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/a0665ff51e074213056d9.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/99c26d7868e86a7f96c75.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/99c26d7868e86a7f96c75.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/99c26d7868e86a7f96c75.jpg"
 
 
 def time_to_seconds(time):
